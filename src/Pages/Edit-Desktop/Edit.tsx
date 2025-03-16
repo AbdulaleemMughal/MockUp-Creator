@@ -1,7 +1,7 @@
 import { ChangeEvent, useRef, useState } from "react";
 import { IoIosArrowDown, IoMdAdd } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-import { ChromePicker } from "react-color"
+import { ChromePicker } from "react-color";
 import { EditDesktop } from "./EditDesktop";
 import html2canvas from "html2canvas";
 

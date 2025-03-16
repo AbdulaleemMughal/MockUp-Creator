@@ -15,7 +15,6 @@ import edit_image from "../assets/edit-image.png";
 import edit_laptop from "../assets/edit-laptop.png";
 import instagram from "../assets/instagram.png";
 import phone_lock_screen from "../assets/phone-lock-screen.png";
-import phone from "../assets/phone.png";
 import spotify_desktop from "../assets/spotify-desktop.png";
 import spotify_phone from "../assets/spotify-phone.png"
 import tiktok from "../assets/tiktok.png";

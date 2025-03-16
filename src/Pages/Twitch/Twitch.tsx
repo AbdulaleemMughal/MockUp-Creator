@@ -4,7 +4,7 @@ import { LuCrown } from "react-icons/lu";
 import { FiUser } from "react-icons/fi";
 import { Drawer, Switch } from "@mui/material";
 import { RxCross2, RxDotsVertical } from "react-icons/rx";
-import { ChangeEvent, useEffect, useRef, useState } from "react";
+import { ChangeEvent, useRef, useState } from "react";
 import { IoMdAdd } from "react-icons/io";
 import "../../App.css";
 import { useNavigate } from "react-router-dom";

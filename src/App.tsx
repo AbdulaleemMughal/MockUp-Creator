@@ -15,7 +15,6 @@ import { Edit as Desktop } from "./Pages/Edit-Desktop/Edit"
 import { Phone } from './Pages/Phone-call/Phone';
 import { PhoneLockScreen } from './Pages/PhoneLockscreen/PhoneLockScreen';
 import { Twitch } from './Pages/Twitch/Twitch';
-import { Practise } from './Component/Practise';
 
 function App() {
 
@@ -79,10 +78,6 @@ function App() {
     {
       path: '/twitch',
       element: <Twitch />
-    },
-    {
-      path: '/practise',
-      element: <Practise />
     }
   ])
 

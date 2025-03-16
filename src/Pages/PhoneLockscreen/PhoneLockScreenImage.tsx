@@ -1,4 +1,3 @@
-import { Dayjs } from "dayjs";
 import { FaWifi } from "react-icons/fa6";
 import { MdOutlineSignalCellularAlt } from "react-icons/md";
 import { CiBatteryFull } from "react-icons/ci";
