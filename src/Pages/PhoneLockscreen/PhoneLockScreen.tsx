@@ -133,7 +133,7 @@ export const PhoneLockScreen = () => {
     <>
       <LocalizationProvider dateAdapter={AdapterDayjs}>
         <div className="grid grid-cols-12">
-          <div className="col-span-3 flex flex-col gap-2 p-4">
+          <div className="col-span-3 flex flex-col gap-2 p-4 max-lg:col-span-12">
             <h2 className="text-lg font-bold text-white">
               Edit Phone Lockscreen Mockup
             </h2>

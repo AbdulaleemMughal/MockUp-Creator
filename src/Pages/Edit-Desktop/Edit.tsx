@@ -11,7 +11,7 @@ export const Edit = () => {
     const profileRef = useRef<HTMLInputElement | null>(null);
 
   const [dropdown, setDropdown] = useState<boolean>(false);
-  const [backgroundColor, setBackgroundColor] = useState<string>("Dark");
+  const [backgroundColor, setBackgroundColor] = useState<string>("White");
   const [profileImage, setProfileImage] = useState<string>("");
   const [linearGradient, setLinearGradient] = useState<boolean>(false) 
   const [radialGradient, setRadialGradient] = useState<boolean>(false) 
@@ -59,7 +59,7 @@ export const Edit = () => {
     <>
       <div className="grid grid-cols-12 h-screen">
         <div className="col-span-3 flex flex-col gap-4 p-4 max-lg:col-span-12">
-          <h2 className="text-white font-bold text-lg">Edit TikTok Mockup</h2>
+          <h2 className="text-white font-bold text-lg">Edit Laptop Mockup</h2>
           <div className="flex flex-col gap-1">
             <div
               className="w-full bg-white rounded flex justify-between items-center px-4 py-2 cursor-pointer"

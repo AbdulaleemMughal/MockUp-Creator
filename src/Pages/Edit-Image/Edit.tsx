@@ -11,7 +11,7 @@ export const Edit = () => {
     const profileRef = useRef<HTMLInputElement | null>(null);
 
   const [dropdown, setDropdown] = useState<boolean>(false);
-  const [backgroundColor, setBackgroundColor] = useState<string>("Dark");
+  const [backgroundColor, setBackgroundColor] = useState<string>("White");
   const [profileImage, setProfileImage] = useState<string>("");
   const [linearGradient, setLinearGradient] = useState<boolean>(false) 
   const [radialGradient, setRadialGradient] = useState<boolean>(false) 

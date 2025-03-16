@@ -144,14 +144,6 @@ export const MockUp = () => {
             iconStyle={{ fontSize: "20px", color: "rgb(168, 85, 247)" }}
             image={twitch}
           />
-          <MockUpCard
-            title={"Twitch Stream"}
-            icon={FaTwitch}
-            link={"practise"}
-            bgColor={"bg-purple-100"}
-            iconStyle={{ fontSize: "20px", color: "rgb(168, 85, 247)" }}
-            image={twitch}
-          />
         </div>
       </div>
     </>

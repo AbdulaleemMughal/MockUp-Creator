@@ -28,7 +28,7 @@ export const WhatsAppImage = ({
     <>
       <div
       id="capture"
-        className={`col-span-9 flex justify-center items-center ${
+        className={`col-span-9 flex justify-center items-center max-lg:col-span-12 ${
           bgColor === "Green"
             ? "bg-[#25D366]"
             : bgColor === "White"

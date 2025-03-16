@@ -13,7 +13,7 @@ type EditImageProps = {
 export const EditImage = ({ image, rotation, bgColor, linearLeft, linearGradient, linearRight, radialGradient, radialLeft, radialRight }: EditImageProps) => {
   return (
     <>
-      <div id="capture" className="col-span-9 flex justify-center items-center" style={linearGradient ? {
+      <div id="capture" className="col-span-9 flex justify-center items-center max-md:col-span-12 max-lg:col-span-12" style={linearGradient ? {
           backgroundImage: `linear-gradient(${rotation}deg, ${linearLeft}, ${linearRight})`,
         }
         : radialGradient? {

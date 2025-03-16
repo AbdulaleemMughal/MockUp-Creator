@@ -16,19 +16,19 @@ export const TwitchStream = ({ profile, thumbnail }: TwitchStreamProps) => {
   return (
     <>
       <div className="grid grid-cols-5" id="capture">
-        <div className="col-span-4 flex flex-col">
-          <div className="mx-10">
+        <div className="col-span-4 flex flex-col max-lg:col-span-5">
+          <div className="mx-10 max-md:mx-0">
             {thumbnail ? (
               <img
                 src={thumbnail}
                 className="w-[90%] bg-neutral-700 aspect-video"
               />
             ) : (
-              <div className="w-[90%] bg-neutral-700 aspect-video"></div>
+              <div className="w-[90%] bg-neutral-700 aspect-video max-md:w-[100%]"></div>
             )}
           </div>
           <div className="flex justify-between items-center bg-[#242424] pl-5 pt-3 pr-2">
-            <div className="flex gap-1">
+            <div className="flex gap-1 items-center">
               <div className="w-16 h-16 rounded-full">
                 {profile ? (
                   <img src={profile} className="w-full h-full rounded-full" />
@@ -41,13 +41,13 @@ export const TwitchStream = ({ profile, thumbnail }: TwitchStreamProps) => {
               </div>
               <div className="flex flex-col">
                 <h2
-                  className="text-white text-2xl font-bold outline-none"
+                  className="text-white text-2xl font-bold outline-none max-md:text-xl max-sm:text-sm"
                   contentEditable
                 >
                   Username
                 </h2>
                 <p
-                  className="text-white font-semibold outline-none"
+                  className="text-white font-semibold outline-none max-md:text-xl max-sm:text-sm"
                   contentEditable
                 >
                   Stream Title
@@ -55,8 +55,8 @@ export const TwitchStream = ({ profile, thumbnail }: TwitchStreamProps) => {
               </div>
             </div>
             <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-1">
-                <button className="flex items-center gap-2 py-[6px] px-3 bg-[#772CE8] text-white rounded-sm text-sm font-semibold">
+              <div className="flex items-center gap-1 max-md:flex-col">
+                <button className="flex items-center gap-2 py-[6px] px-3 bg-[#772CE8] text-white rounded-sm text-sm font-semibold max-md:px-[36px]">
                   <FaRegHeart className="text-md" />
                   Follow
                 </button>

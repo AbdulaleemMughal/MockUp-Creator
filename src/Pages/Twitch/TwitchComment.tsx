@@ -7,7 +7,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 export const TwitchComment = () => {
     return (
         <>
-            <div className="col-span-1 bg-[#242424] border-l border-neutral-700">
+            <div className="col-span-1 bg-[#242424] border-l border-neutral-700 max-lg:col-span-5">
                 <div className="flex justify-between items-center border-b border-neutral-700 text-neutral-200 p-3">
                     <div className="text-xl"><PiSignOutBold /></div>
                     <p className="text-md">STREAM CHAT</p>

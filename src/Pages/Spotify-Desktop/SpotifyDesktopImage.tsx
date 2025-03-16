@@ -28,7 +28,7 @@ export const SpotifyDesktopImage = ({
 }: SpotifyDesktopImageProps) => {
   return (
     <>
-      <div id="capture" className={`col-span-9 flex justify-center items-center h-full ${bgColor === "White" ? "bg-white" : bgColor === "Green" ? "bg-green-700" : bgColor === "Dark" ? "bg-transparent" : bgColor === "None" ? "bg-transparent" : "bg-transparent"}`} style={
+      <div id="capture" className={`col-span-9 flex justify-center items-center h-full max-lg:col-span-12 ${bgColor === "White" ? "bg-white" : bgColor === "Green" ? "bg-green-700" : bgColor === "Dark" ? "bg-transparent" : bgColor === "None" ? "bg-transparent" : "bg-transparent"}`} style={
     bgColor === "Desktop"
       ? {
           backgroundImage: `url(${desktopImage})`,

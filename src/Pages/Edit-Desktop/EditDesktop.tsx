@@ -25,7 +25,7 @@ type EditDesktopProps = {
       <>
         <div
         id="capture"
-          className="col-span-9 flex justify-center items-center"
+          className="col-span-9 flex justify-center items-center max-lg:col-span-12"
           style={
             linearGradient
               ? {

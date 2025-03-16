@@ -100,7 +100,7 @@ export const Twitch = () => {
                   <div className="flex-1 h-full">
                     <input
                       type="text"
-                      className="pl-4 w-full h-full border border-neutral-500 bg-transparent rounded-s-md text-neutral-400 placeholder:font-bold"
+                      className="pl-4 outline-none w-full h-full border border-neutral-500 bg-transparent rounded-s-md text-neutral-400 placeholder:font-bold"
                       placeholder="Search"
                     />
                   </div>

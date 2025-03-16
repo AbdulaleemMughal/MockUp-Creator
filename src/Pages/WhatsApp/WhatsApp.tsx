@@ -82,7 +82,7 @@ export const WhatsApp = () => {
     <>
       <LocalizationProvider dateAdapter={AdapterDayjs}>
         <div className="grid grid-cols-12">
-          <div className="col-span-3 p-4">
+          <div className="col-span-3 p-4 max-lg:col-span-12">
             <div className="flex flex-col gap-4 text-neutral-200">
               <h2 className="text-lg font-bold">Edit Whatsapp Chat Mockup</h2>
               <p>Click on the Name to edit it.</p>
